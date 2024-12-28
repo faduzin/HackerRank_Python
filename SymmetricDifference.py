@@ -1,5 +1,5 @@
 s1 = int(input())
-set1 = set(map(str, input().split()))
+set1 = set(map(int, input().split()))
 s2 = int(input())
-set2 = set(map(str, input().split()))
+set2 = set(map(int, input().split()))
 print(len(set1.symmetric_difference(set2)))
