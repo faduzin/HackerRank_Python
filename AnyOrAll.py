@@ -1,5 +1,4 @@
 def numberLength(n):
-
   # Return length of given number
     return len(str(n))
 
